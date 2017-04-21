@@ -227,6 +227,10 @@
       <Project>{c6ed3efc-27b1-4577-9b2b-56df3045c8f0}</Project>
       <Name>Log4netSample.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Log4netSample.Util\Log4netSample.Util.csproj">
+      <Project>{6f4ba6a0-566f-4902-adae-f561c934ea0e}</Project>
+      <Name>Log4netSample.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

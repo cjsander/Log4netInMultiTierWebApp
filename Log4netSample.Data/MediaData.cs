@@ -1,16 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using log4net;
 using Log4netSample.Model;
+using Log4netSample.Util;
 
 namespace Log4netSample.Data
 {
     public class MediaData
     {
         private readonly ILog _logger = LogManager.GetLogger("LogDebug");
+        private readonly Log4NetHelper _msg = new Log4NetHelper();
+
         public List<Media> GetAllMedia()
         {
-            _logger.Debug("Starting GetAllMedia.");
+            _logger.Debug(_msg.LogMsg(Log4NetHelper.Message.DbCallStart));
             var listMedia = new List<Media>();
 
             var media = new Media
@@ -42,21 +46,36 @@ namespace Log4netSample.Data
             listMedia.Add(media2);
             listMedia.Add(media3);
 
-            _logger.Debug("Ending GetAllMedia");
-
+            _logger.Debug(_msg.LogMsg(Log4NetHelper.Message.DbCallEnd));
+            _logger.Debug(_msg.LogMsg(Log4NetHelper.Message.InitialGetRequestStop));
             return listMedia;
 
         }
 
         public Media GetMediaById(int searchId)
         {
-            _logger.Debug("Starting GetMediaById.");
-            List<Media> listMedia = GetAllMedia();
+            _logger.Debug(_msg.LogMsg(Log4NetHelper.Message.DbCallStart));
+            IEnumerable<Media> media = new List<Media>();
 
-            IEnumerable<Media> media = from m in listMedia
-                where m.Id == searchId
-                select m;
-            _logger.Debug("Ending GetMediaById");
+            try
+            {
+                if (searchId == 1111)
+                {
+                    throw new Exception("Invalid ID");
+                }
+                var listMedia = GetAllMedia();
+                media = from m in listMedia
+                        where m.Id == searchId
+                        select m;
+            }
+            catch (System.Exception ex)
+            {
+                _logger.Error(_msg.LogMsg(Log4NetHelper.Message.Error, ex.Message));
+                return null;
+
+            }
+            _logger.Debug(_msg.LogMsg(Log4NetHelper.Message.DbCallEnd));
+            _logger.Debug(_msg.LogMsg(Log4NetHelper.Message.InitialGetRequestStop));
             return media.FirstOrDefault();
         }
     }

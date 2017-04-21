@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4netSample.Data", "Log4n
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4netSample.Model", "Log4netSample.Model\Log4netSample.Model.csproj", "{C6ED3EFC-27B1-4577-9B2B-56DF3045C8F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4netSample.Util", "Log4netSample.Util\Log4netSample.Util.csproj", "{6F4BA6A0-566F-4902-ADAE-F561C934EA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4netSample.Tests", "Log4netSample.Tests\Log4netSample.Tests.csproj", "{16669CC0-86C6-4596-955D-3CEC6F98CDC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C6ED3EFC-27B1-4577-9B2B-56DF3045C8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6ED3EFC-27B1-4577-9B2B-56DF3045C8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6ED3EFC-27B1-4577-9B2B-56DF3045C8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4BA6A0-566F-4902-ADAE-F561C934EA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4BA6A0-566F-4902-ADAE-F561C934EA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4BA6A0-566F-4902-ADAE-F561C934EA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4BA6A0-566F-4902-ADAE-F561C934EA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16669CC0-86C6-4596-955D-3CEC6F98CDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16669CC0-86C6-4596-955D-3CEC6F98CDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16669CC0-86C6-4596-955D-3CEC6F98CDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16669CC0-86C6-4596-955D-3CEC6F98CDC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

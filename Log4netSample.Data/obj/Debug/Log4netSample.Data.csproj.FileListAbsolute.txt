@@ -1,0 +1,11 @@
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\Log4netSample.Data.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\Log4netSample.Data.pdb
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\log4net.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\Log4netSample.Model.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\Log4netSample.Util.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\Log4netSample.Model.pdb
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\Log4netSample.Util.pdb
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\bin\Debug\log4net.xml
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\obj\Debug\Log4netSample.Data.csprojResolveAssemblyReference.cache
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\obj\Debug\Log4netSample.Data.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Data\obj\Debug\Log4netSample.Data.pdb

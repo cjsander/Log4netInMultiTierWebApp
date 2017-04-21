@@ -1,0 +1,6 @@
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Util\bin\Debug\Log4netSample.Util.dll.config
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Util\bin\Debug\Log4netSample.Util.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Util\bin\Debug\Log4netSample.Util.pdb
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Util\obj\Debug\Log4netSample.Util.dll
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Util\obj\Debug\Log4netSample.Util.pdb
+C:\Users\e047768\Source\Repos\Log4netInMultiTierWebApp\Log4netSample.Util\obj\Debug\Log4netSample.Util.csprojResolveAssemblyReference.cache
